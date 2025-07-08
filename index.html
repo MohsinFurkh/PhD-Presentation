@@ -90,9 +90,10 @@
             left: 20px;
             background: #764ba2;
             color: white;
-            padding: 5px 15px;
+            padding: 10px 20px;
             border-radius: 20px;
-            font-size: 14px;
+            font-size: 20px;
+            font-weight: bold;
             font-weight: 500;
             z-index: 100;
             box-shadow: 0 2px 5px rgba(0,0,0,0.2);
@@ -2470,15 +2471,6 @@
                         break;
                 }
             });
-        });
-
-        // Keyboard navigation
-        document.addEventListener('keydown', function(event) {
-            if (event.key === 'ArrowRight' || event.key === ' ') {
-                changeSlide(1);
-            } else if (event.key === 'ArrowLeft') {
-                changeSlide(-1);
-            }
         });
 
         // Make showSlide globally accessible
